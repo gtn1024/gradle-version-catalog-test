@@ -1,0 +1,3 @@
+dependencies {
+    implementation 'cn.hutool:hutool-core:5.0.0'
+}

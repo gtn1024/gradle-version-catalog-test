@@ -1,0 +1,4 @@
+rootProject.name = 'gradle-version-catalog-test'
+
+include ':shared'
+include ':entry'

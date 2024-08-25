@@ -1,0 +1,15 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+dependencies {
+    implementation project(':shared')
+    implementation 'cn.hutool:hutool-core:5.8.31'
+}
+
+// shadowJar main class
+shadowJar {
+    manifest {
+        attributes 'Main-Class': 'com.github.gtn1024.entry.Main'
+    }
+}

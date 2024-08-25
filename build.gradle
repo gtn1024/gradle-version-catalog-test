@@ -1,0 +1,10 @@
+allprojects {
+    apply plugin: 'java'
+
+    group = 'com.github.gtn1024'
+    version = '1.0-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
+}
