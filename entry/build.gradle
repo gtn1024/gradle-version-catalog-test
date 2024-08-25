@@ -4,7 +4,7 @@ plugins {
 
 dependencies {
     implementation project(':shared')
-    implementation 'cn.hutool:hutool-core:5.8.31'
+    implementation libs.hutool.core
 }
 
 // shadowJar main class

@@ -1,0 +1,5 @@
+[versions]
+hutool = "5.8.31"
+
+[libraries]
+hutool-core = { module = "cn.hutool:hutool-core", version.ref = "hutool" }
